@@ -1,0 +1,55 @@
+html, div {
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 45em) {
+  html, div {
+    font-size: 1em;
+    line-height: 1.2em;
+  }
+}
+
+@media screen and (max-width: 30em) {
+  html, div {
+    font-size: 1em;
+    line-height: 1.2em;
+  }
+}
+
+
+.is-active {
+   background-color:#e3eaeea1;
+    width: 24px; 
+    box-shadow: 0 4px 0 #669bbc;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.menuitem {
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.headertext {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+a:active {
+  color: blue;
+}
